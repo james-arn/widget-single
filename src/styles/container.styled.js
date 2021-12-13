@@ -47,22 +47,12 @@ layout
     background: #b0b0b0;
   }
 
-  @media (min-width: 900px) {
-    .container-outer {
-      width: 851px;
-      height: 419px;
-    }
-
-    .container-inner {
-      width: 779px;
-      justify-content: flex-start;
-    }
 
     .body {
-      width: 779px;
+      width: 258px;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
     }
 
     .title {

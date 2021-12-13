@@ -28,8 +28,6 @@ function App() {
             <span className="title-line"></span>
             <div className="body">
               <Widget widgetNum="1" fetchedData={fetchedData} />
-              <Widget widgetNum="2" fetchedData={fetchedData} />
-              <Widget widgetNum="3" fetchedData={fetchedData} />
             </div>
           </div>
         </div>
