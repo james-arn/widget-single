@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/widget-single/static/css/main.86a4fa6c.chunk.css",
+    "main.js": "/widget-single/static/js/main.cc27355a.chunk.js",
+    "main.js.map": "/widget-single/static/js/main.cc27355a.chunk.js.map",
+    "runtime-main.js": "/widget-single/static/js/runtime-main.c915cf5d.js",
+    "runtime-main.js.map": "/widget-single/static/js/runtime-main.c915cf5d.js.map",
+    "static/js/2.53322398.chunk.js": "/widget-single/static/js/2.53322398.chunk.js",
+    "static/js/2.53322398.chunk.js.map": "/widget-single/static/js/2.53322398.chunk.js.map",
+    "static/js/3.762b61c1.chunk.js": "/widget-single/static/js/3.762b61c1.chunk.js",
+    "static/js/3.762b61c1.chunk.js.map": "/widget-single/static/js/3.762b61c1.chunk.js.map",
+    "index.html": "/widget-single/index.html",
+    "static/css/main.86a4fa6c.chunk.css.map": "/widget-single/static/css/main.86a4fa6c.chunk.css.map",
+    "static/js/2.53322398.chunk.js.LICENSE.txt": "/widget-single/static/js/2.53322398.chunk.js.LICENSE.txt",
+    "static/media/check_box_outline_blank.d2e12e85.svg": "/widget-single/static/media/check_box_outline_blank.d2e12e85.svg",
+    "static/media/check_box_ticked.0f49ee97.svg": "/widget-single/static/media/check_box_ticked.0f49ee97.svg",
+    "static/media/logo-green.c704fcc0.svg": "/widget-single/static/media/logo-green.c704fcc0.svg",
+    "static/media/logo-white.bf7c13b9.svg": "/widget-single/static/media/logo-white.bf7c13b9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c915cf5d.js",
+    "static/js/2.53322398.chunk.js",
+    "static/css/main.86a4fa6c.chunk.css",
+    "static/js/main.cc27355a.chunk.js"
+  ]
+}
