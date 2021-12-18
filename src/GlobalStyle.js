@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+
 
 * {
   font-family: "Cabin", sans-serif;
@@ -18,7 +20,6 @@ a {
     font-weight: 700;
   }
 
-//Badge color themes
 :root {
   --badge-color: #2e3a8c;
 }

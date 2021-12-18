@@ -1,23 +1,15 @@
 import { useEffect, useState } from "react";
 import Widget from "./components/Widget";
 import { ContainerStyled } from "./styles/container.styled";
+import { fetchData } from "./utils/fetchData";
 
 function App() {
   const [fetchedData, setFetchedData] = useState([]);
   const [error, setError] = useState({ error: false, message: "" });
   //api
-  useEffect(async () => {
-    try {
-      const data = await fetch("https://getgreenspark.mocklab.io/products");
-      if (data.status !== 200) {
-        throw new Error(error);
-      }
-      const response = await data.json();
-      setFetchedData(response);
-    } catch (error) {
-      setError({ error: true, message: error.message });
-    }
-  }, []);
+  useEffect(() => {
+    fetchData(setFetchedData, error, setError);
+  }, [error]);
 
   return (
     <div>
