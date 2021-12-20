@@ -1,5 +1,5 @@
 *1. Project's Title*
-Widget completed for company Greenspark.
+- Widget completed for company Greenspark.
 
 *2. Project Description*
 - Create a widget to specification including various hover and active states. 
