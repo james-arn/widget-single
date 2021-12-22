@@ -122,7 +122,12 @@ const Widget = ({ widgetNum, fetchedData }) => {
           <div className="widget-row">
             <span>Activate badge</span>
             <label className="switch">
-              <input type="checkbox" onClick={() => setToggle(!toggle)} />
+              <input
+                data-testid="switch-element-id"
+                type="checkbox"
+                className="switch-input"
+                onClick={() => setToggle(!toggle)}
+              />
               <span className="slider round"></span>
             </label>
           </div>
